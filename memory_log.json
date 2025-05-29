@@ -1,0 +1,110 @@
+{
+  "thread_123": {
+    "source": "john.doe@example.com",
+    "type": "email",
+    "timestamp": "2025-05-29T15:35:47.263275",
+    "file_path": "C:\\Users\\Himanshu\\Downloads\\email_rfq.txt",
+    "logs": [
+      "Classifier: Detected email from C:\\Users\\Himanshu\\Downloads\\email_rfq.txt",
+      "Classifier: Classified intent as RFQ",
+      "Email Agent: Extracted info for RFQ"
+    ],
+    "intent": "RFQ",
+    "extracted_values": {
+      "urgency": "high",
+      "quantity": 250,
+      "product": "Widget",
+      "sender": "john.doe@example.com"
+    }
+  },
+  "thread_124": {
+    "source": "jane.smith@example.com",
+    "type": "email",
+    "timestamp": "2025-05-29T15:35:47.263275",
+    "file_path": "C:\\Users\\Himanshu\\Downloads\\email_complaint.txt",
+    "logs": [
+      "Classifier: Detected email from C:\\Users\\Himanshu\\Downloads\\email_complaint.txt",
+      "Classifier: Classified intent as Complaint",
+      "Email Agent: Extracted info for Complaint"
+    ],
+    "intent": "Complaint",
+    "extracted_values": {
+      "urgency": "normal",
+      "order_id": "98765",
+      "issue": "Damaged Order #98765",
+      "sender": "jane.smith@example.com"
+    }
+  },
+  "thread_456": {
+    "source": "system@example.com",
+    "type": "json",
+    "timestamp": "2025-05-29T15:35:47.263275",
+    "file_path": "C:\\Users\\Himanshu\\Downloads\\sales_invoice.json",
+    "logs": [
+      "Classifier: Detected json from C:\\Users\\Himanshu\\Downloads\\sales_invoice.json",
+      "Classifier: Classified intent as Invoice",
+      "JSON Agent: Extracted values; Anomalies: []"
+    ],
+    "intent": "Invoice",
+    "extracted_values": {
+      "invoice_number": "EQUIP-2025-009",
+      "date": "2025-05-29",
+      "total": 1770,
+      "currency": "INR"
+    }
+  },
+  "thread_457": {
+    "source": "system@example.com",
+    "type": "json",
+    "timestamp": "2025-05-29T15:35:47.263275",
+    "file_path": "C:\\Users\\Himanshu\\Downloads\\service_invoice.json",
+    "logs": [
+      "Classifier: Detected json from C:\\Users\\Himanshu\\Downloads\\service_invoice.json",
+      "Classifier: Classified intent as Invoice",
+      "JSON Agent: Extracted values; Anomalies: []"
+    ],
+    "intent": "Invoice",
+    "extracted_values": {
+      "invoice_number": "SERV2025-007",
+      "date": "2025-05-28",
+      "total": 1180,
+      "currency": "INR"
+    }
+  },
+  "thread_789": {
+    "source": "alice.brown@example.com",
+    "type": "pdf",
+    "timestamp": "2025-05-29T15:35:47.263275",
+    "file_path": "C:\\Users\\Himanshu\\Downloads\\complaint1.pdf",
+    "logs": [
+      "Classifier: Detected pdf from C:\\Users\\Himanshu\\Downloads\\complaint1.pdf",
+      "Classifier: Classified intent as Complaint",
+      "Email Agent: Extracted info for Complaint"
+    ],
+    "intent": "Complaint",
+    "extracted_values": {
+      "urgency": "normal",
+      "order_id": "45678",
+      "issue": "damaged during shipping",
+      "sender": "alice.brown@example.com"
+    }
+  },
+  "thread_790": {
+    "source": "bob.wilson@example.com",
+    "type": "pdf",
+    "timestamp": "2025-05-29T15:35:47.263275",
+    "file_path": "C:\\Users\\Himanshu\\Downloads\\complaint2.pdf",
+    "logs": [
+      "Classifier: Detected pdf from C:\\Users\\Himanshu\\Downloads\\complaint2.pdf",
+      "Classifier: Classified intent as Complaint",
+      "Email Agent: Extracted info for Complaint"
+    ],
+    "intent": "Complaint",
+    "extracted_values": {
+      "urgency": "normal",
+      "order_id": "12345",
+      "issue": "issue with Order #12345, delivered on May 25, 2025",
+      "sender": "bob.wilson@example.com"
+    }
+  }
+}
