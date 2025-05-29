@@ -1,0 +1,8 @@
+Subject: Complaint - Damaged Order #98765
+Dear Support Team,
+
+I’m filing a complaint regarding Order #98765, delivered on May 20, 2025. The items were damaged, specifically the packaging and two units of Product X were defective. Please address this issue and issue a replacement or repair.
+
+Sincerely,
+Jane Smith,
+</xaj@example.com>

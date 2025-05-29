@@ -1,0 +1,8 @@
+Subject: Urgent RFQ for Widget Z
+Dear Supplier,
+
+Please provide a quote for 250 units of Product Widget Z. We need delivery by June 30, 2025. This is an urgent request, so please respond by May 31, 2025.
+
+Best regards,
+John Doe
+</xai@example.com>

@@ -1,0 +1,28 @@
+{
+  "Version": "1.1",
+  "DocDtls": {
+    "Typ": "INV",
+    "No": "SERV2025-007",
+    "Dt": "2025-05-28"
+  },
+  "SellerDtls": {
+    "LglNm": "ServicePro Inc.",
+    "Addr1": "789 Business Park",
+    "Loc": "Delhi",
+    "Pin": 110001
+  },
+  "ItemList": [
+    {
+      "PrdDesc": "Consulting Services",
+      "Qty": 10,
+      "UnitPrice": 100,
+      "TotAmt": 1000
+    }
+  ],
+  "ValDtls": {
+    "AssVal": 1000,
+    "CgstVal": 90,
+    "SgstVal": 90,
+    "TotInvVal": 1180
+  }
+}
